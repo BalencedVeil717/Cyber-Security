@@ -1,9 +1,17 @@
-.info div h1 {
+.types {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.types h1 {
+  font-size: 40px;
+}
+.types div h1 {
     font-family: var(--russo);
     color: black;
     font-size: 35px;
 }
-.info h2 {
+.types div h2 {
     font-family: var(--nova);
     font-size: 22px;
     text-indent: 5px;
