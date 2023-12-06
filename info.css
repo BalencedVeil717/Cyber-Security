@@ -2,19 +2,19 @@
   font-family: NovaSquare;
   font-weight: 400;
   font-style: normal;
-  src: url(./assets/fonts/NovaSquare-Regular.ttf);
+  src: url(https://github.com/BalencedVeil717/Cyber-Security/blob/main/assets/Fonts/NovaSquare-Regular.ttf);
 }
 @font-face {
   font-family: RussoOne;
   font-weight: 400;
   font-style: normal;
-  src: url(./assets/fonts/RussoOne-Regular.ttf);
+  src: url(https://github.com/BalencedVeil717/Cyber-Security/blob/main/assets/Fonts/RussoOne-Regular.ttf);
 }
 @font-face {
   font-family: Bungee;
   font-weight: 400;
   font-style: normal;
-  src: url(./assets/fonts/Bungee-Regular.ttf);
+  src: url(https://github.com/BalencedVeil717/Cyber-Security/blob/main/assets/Fonts/Bungee-Regular.ttf);
 }
 :root {
   --nova: "NovaSquare", sans-serif;
