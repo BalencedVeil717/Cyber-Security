@@ -1,0 +1,100 @@
+@font-face {
+  font-family: NovaSquare;
+  font-weight: 400;
+  font-style: normal;
+  src: url(./assets/fonts/NovaSquare-Regular.ttf);
+}
+@font-face {
+  font-family: RussoOne;
+  font-weight: 400;
+  font-style: normal;
+  src: url(./assets/fonts/RussoOne-Regular.ttf);
+}
+@font-face {
+  font-family: Bungee;
+  font-weight: 400;
+  font-style: normal;
+  src: url(./assets/fonts/Bungee-Regular.ttf);
+}
+:root {
+  --nova: "NovaSquare", sans-serif;
+  --russo: "RussoOne", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+  list-style-type: none;
+  scroll-behavior: smooth;
+}
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.navbar {
+  /* border: 2px solid black; */
+  margin: 8px;
+  width: 98%;
+  background: red;
+  /* height: 50px; */
+  /* margin-bottom: 10px; */
+  border-radius: 7px;
+  padding: 10px 10px;
+  /* overflow: hidden; */
+  /* background-color: red; */
+  position: fixed;
+}
+.navbar ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar ul li p {
+  font-size: 20px;
+  font-weight: 600;
+  text-shadow: 1px 1px rgb(89, 255, 0);
+  font-family: "Bungee", sans-serif;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: black;
+  background-color: orange;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 13px;
+  box-shadow: 2px 2px yellow;
+  padding: 4px 10px;
+}
+
+.container {
+  /* border: 2px solid black; */
+  /* border-radius: 7px; */
+  /* background-color: black; */
+  margin-top: 70px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+.container div {
+  padding: 10px;
+  /* background-color: plum; */
+  width: 98%;
+  /* border: 2px solid white; */
+  /* border-radius: 5px; */
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  align-items: center;
+  justify-content: center;
+}
+.container div {
+  border: 2px solid black;
+  display: block;
+}

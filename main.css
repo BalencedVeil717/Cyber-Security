@@ -1,0 +1,99 @@
+@font-face {
+  font-family: Bungee;
+  font-weight: 400;
+  font-style: normal;
+  src: url(./assets/fonts/Bungee-Regular.ttf);
+}
+@font-face {
+  font-family: RussoOne;
+  font-weight: 400;
+  font-style: normal;
+  src: url(./assets/fonts/RussoOne-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+  list-style-type: none;
+  scroll-behavior: smooth;
+}
+body {
+  height: 100vh;
+  background: url(./assets/images/bg1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.navbar {
+  /* border: 2px solid black; */
+  margin: 8px;
+  width: 98%;
+  background: url(./assets/images/banner.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1px solid skyblue;
+  border-radius: 10px;
+  /* height: 50px; */
+  /* margin-bottom: 10px; */
+  padding: 10px 10px;
+  /* overflow: hidden; */
+  /* background-color: red; */
+}
+.navbar ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar ul li p {
+  font-size: 30px;
+  font-weight: 600;
+  text-shadow: 3px 3px orange;
+  font-family: "Bungee", sans-serif;
+  color: white;
+}
+.navbar ul li a {
+  color: white;
+  font-size: 20px;
+  padding: 4px 10px;
+}
+
+.container {
+  width: 98%;
+  height: 85%;
+  padding: 5%;
+  background-color: rgba(17, 25, 40, 0.75);
+  backdrop-filter: blur(5px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+.container .txt h1 {
+  font-size: 70px;
+  color: cyan;
+  text-shadow: 0 0 5px yellow, 0 0 7px black;
+}
+.container .txt p {
+  font-size: 30px;
+  color: white;
+  font-family: "RussoOne", sans-serif;
+  text-shadow: 0 0 2px black;
+}
+.container .txt a {
+  font-size: 20px;
+  color: yellow;
+}
+.container .img img {
+  height: 350px;
+  width: 350px;
+  backdrop-filter: blur(5px);
+  border: 1px solid cyan;
+  border-radius: 50%;
+}
