@@ -88,6 +88,10 @@ body {
   letter-spacing: 5px;
   text-shadow: 0 0 5px yellow, 0 0 7px black;
 }
+.container .txt h1:hover {
+    text-shadow: 0 0 15px yellow, 0 0 20px black;
+    transition: 0.5s;
+}
 .container .txt p {
   font-size: 30px;
   color: white;
@@ -104,4 +108,17 @@ body {
   backdrop-filter: blur(5px);
   border: 1px solid cyan;
   border-radius: 50%;
+  box-shadow: 0 0 10px cyan;
+  animation-name: rotate;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+}
+@keyframes rotate {
+    from {
+
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
