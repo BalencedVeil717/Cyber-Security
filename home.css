@@ -35,7 +35,6 @@ body {
   align-items: center;
 }
 .navbar {
-  /* border: 2px solid black; */
   margin: 8px;
   width: 98%;
   background: url(./assets/images/banner.jpeg);
@@ -43,11 +42,7 @@ body {
   background-size: cover;
   border: 1px solid skyblue;
   border-radius: 10px;
-  /* height: 50px; */
-  /* margin-bottom: 10px; */
-  padding: 10px 10px;
-  /* overflow: hidden; */
-  /* background-color: red; */
+  padding: 10px;
 }
 .navbar ul {
   display: flex;
@@ -113,6 +108,22 @@ body {
   animation-duration: 5s;
   animation-iteration-count: infinite;
   animation-play-state: running;
+}
+.container .img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.container .img a {
+    text-decoration: none;
+    margin-top: 100px;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: yellow;
+    color: black;
 }
 @keyframes rotate {
     from {
