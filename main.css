@@ -2,18 +2,18 @@
   font-family: Bungee;
   font-weight: 400;
   font-style: normal;
-  src: url(./assets/Fonts/Bungee-Regular.otf);
+  src: url(/assets/Fonts/Bungee-Regular.otf);
 @font-face {
   font-family: RussoOne;
   font-weight: 400;
   font-style: normal;
-  src: url(./assets/Fonts/RussoOne-Regular.ttf);
+  src: url(/assets/Fonts/RussoOne-Regular.ttf);
 }
 @font-face {
   font-family: Notable;
   font-weight: 400;
   font-style: normal;
-  src: url(./assets/Fonts/Notable-Regular.ttf);
+  src: url(/assets/Fonts/Notable-Regular.ttf);
 }
 
 * {
