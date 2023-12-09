@@ -2,19 +2,19 @@
   font-family: Bungee;
   font-weight: 400;
   font-style: normal;
-  src: url(./assets/Fonts/Bungee-Regular.ttf);
+  src: url(../assets/Fonts/Bungee-Regular.ttf);
 }
 @font-face {
   font-family: RussoOne;
   font-weight: 400;
   font-style: normal;
-  src: url(./assets/Fonts/RussoOne-Regular.ttf);
+  src: url(../assets/Fonts/RussoOne-Regular.ttf);
 }
 @font-face {
   font-family: Notable;
   font-weight: 400;
   font-style: normal;
-  src: url(./assets/Fonts/Notable-Regular.ttf);
+  src: url(../assets/Fonts/Notable-Regular.ttf);
 }
 
 * {
@@ -27,7 +27,7 @@
 }
 body {
   height: 100vh;
-  background: url(./assets/images/bg1.jpg);
+  background: url(../assets/images/bg1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -37,7 +37,7 @@ body {
 .navbar {
   margin: 8px;
   width: 98%;
-  background: url(./assets/images/banner.jpeg);
+  background: url(../assets/images/banner.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   border: 1px solid skyblue;
