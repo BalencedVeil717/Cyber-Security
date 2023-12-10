@@ -84,40 +84,42 @@ li p {
   height: 40px;
   width: auto;
 }
-.container h2 {
-  color: rgb(11, 11, 103);
-  background-color: white;
-  padding: 10px;
-  border-radius: 10px;
+.boxes {
+    border: 10px solid black;
+    border-radius: 7px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
 }
-.container .hr {
-  width: 100%;
-  height: 5px;
-  background-color: black;
+.boxes div a {
+    border-radius: 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: rows;
+    justify-content: center;
+    align-items: center;
 }
-.container ol,
-ul {
-  background-color: rgb(58, 207, 110);
-  padding: 10px;
-  border-radius: 0 20px 0 20px;
-  margin: 20px;
+.boxes div a h2 {
+    font-family: 'Lucida Sans Unicode';
+    border: 3px solid black;
+    padding: 10px;
+    border-radius: 7px;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.container .home {
-  border: 1px solid black;
-  width: fit-content;
-  padding: 5px 20px;
-  background-color: skyblue;
+.boxes div a img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50% 0 0 50%;
+    border: 3px solid black;
+    border-right: 0;
 }
-.container .home a {
-  text-decoration: none;
-}
-.container .home a p {
-  font-family: var(--russo);
-  font-size: 20px;
-  font-weight: 700;
-  letter-spacing: 3px;
-  word-spacing: 10px;
-}
+
+
 @keyframes border {
   10% {
     box-shadow: 5px 5px red, -5px -5px blue;
