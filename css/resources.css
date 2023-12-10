@@ -85,40 +85,56 @@ li p {
   width: auto;
 }
 .boxes {
-    border: 10px solid black;
-    border-radius: 7px;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    align-items: center;
+  border: 10px solid black;
+  border-radius: 7px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
 }
 .boxes div a {
-    border-radius: 30px;
-    padding: 20px;
-    display: flex;
-    flex-direction: rows;
-    justify-content: center;
-    align-items: center;
+  border-radius: 30px;
+  padding: 20px;
+  display: flex;
+  flex-direction: rows;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
 }
 .boxes div a h2 {
-    font-family: 'Lucida Sans Unicode';
-    border: 3px solid black;
-    padding: 10px;
-    border-radius: 7px;
-    min-height: 300px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  font-family: "Lucida Sans Unicode";
+  border: 3px solid black;
+  padding: 10px;
+  border-radius: 7px;
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .boxes div a img {
-    height: 150px;
-    width: 150px;
-    border-radius: 50% 0 0 50%;
-    border: 3px solid black;
-    border-right: 0;
+  height: 150px;
+  width: 150px;
+  border-radius: 50% 0 0 50%;
+  border: 3px solid black;
+  border-right: 0;
 }
-
+.container .home {
+  border: 1px solid black;
+  width: fit-content;
+  padding: 5px 20px;
+  background-color: skyblue;
+}
+.container .home a {
+  text-decoration: none;
+}
+.container .home a p {
+  font-family: var(--russo);
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  word-spacing: 10px;
+}
 
 @keyframes border {
   10% {
